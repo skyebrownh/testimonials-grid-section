@@ -35,11 +35,13 @@
       }
     </style>
   </head>
-  <body class="p-4">
-    <main class="w-full">
+  <body class="p-4 lg:flex lg:justify-center lg:items-center lg:h-screen">
+    <main
+      class="w-full max-w-screen-lg mx-auto lg:grid lg:grid-rows-2 lg:grid-cols-4 lg:gap-6"
+    >
       <!-- Daniel Clifford -->
       <div
-        class="w-full rounded-md p-8 shadow-lg mb-6 text-white relative"
+        class="w-full rounded-md p-8 shadow-lg mb-6 lg:mb-0 text-white relative lg:col-span-2 lg:place-self-stretch"
         style="background-color: hsl(263, 55%, 52%)"
       >
         <!-- quote image -->
@@ -84,7 +86,7 @@
       </div>
       <!-- Jonathan Walters -->
       <div
-        class="w-full rounded-md p-8 shadow-lg mb-6 text-white"
+        class="w-full rounded-md p-8 shadow-lg mb-6 lg:mb-0 text-white lg:place-self-stretch"
         style="background-color: hsl(217, 19%, 35%)"
       >
         <!-- header -->
@@ -113,7 +115,9 @@
         </blockquote>
       </div>
       <!-- Jeanette Harmon -->
-      <div class="w-full rounded-md p-8 shadow-lg mb-6 bg-white">
+      <div
+        class="w-full rounded-md p-8 shadow-lg mb-6 lg:mb-0 bg-white lg:col-start-1 lg:row-start-2 lg:place-self-stretch"
+      >
         <!-- header -->
         <div class="flex items-center">
           <img
@@ -140,7 +144,7 @@
       </div>
       <!-- Patrick Abrams -->
       <div
-        class="w-full rounded-md p-8 shadow-lg mb-6 text-white"
+        class="w-full rounded-md p-8 shadow-lg mb-6 lg:mb-0 text-white lg:col-start-2 lg:col-span-2 lg:row-start-2 lg:place-self-stretch"
         style="background-color: hsl(219, 29%, 14%)"
       >
         <!-- header -->
@@ -175,7 +179,9 @@
         </blockquote>
       </div>
       <!-- Kira Whittle -->
-      <div class="w-full rounded-md p-8 shadow-lg bg-white">
+      <div
+        class="w-full rounded-md p-8 shadow-lg bg-white lg:row-start-1 lg:row-span-2 lg:place-self-stretch"
+      >
         <!-- header -->
         <div class="flex items-center">
           <img
@@ -210,7 +216,9 @@
         </blockquote>
       </div>
     </main>
-    <footer class="w-full text-center text-xs my-2 mt-4">
+    <footer
+      class="w-full text-center text-xs my-2 mt-4 lg:absolute lg:left-0 lg:bottom-0"
+    >
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
