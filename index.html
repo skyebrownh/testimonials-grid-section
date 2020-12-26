@@ -30,29 +30,49 @@
       body {
         font-size: 13px;
         font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 500;
+        background-color: hsl(210, 46%, 95%);
       }
     </style>
   </head>
-  <body>
-    <main>
+  <body class="p-4">
+    <main class="w-full">
       <!-- Daniel Clifford -->
-      <div>
+      <div
+        class="w-full rounded-md p-8 shadow-lg mb-6 text-white relative"
+        style="background-color: hsl(263, 55%, 52%)"
+      >
+        <!-- quote image -->
+        <img
+          src="./images/bg-pattern-quotation.svg"
+          class="absolute top-0 right-4 z-10"
+        />
         <!-- header -->
-        <div>
-          <img src="./images/image-daniel.jpg" alt="Daniel Clifford" />
+        <div class="relative z-20 flex">
+          <img
+            src="./images/image-daniel.jpg"
+            alt="Daniel Clifford"
+            class="w-10 h-10 rounded-full border-2 mr-5"
+            style="border-color: hsl(263, 55%, 70%)"
+          />
           <div>
-            <h2>Daniel Clifford</h2>
-            <p>Verified Graduate</p>
+            <h2 class="text-base font-semibold">Daniel Clifford</h2>
+            <p class="text-sm" style="color: hsl(0, 0%, 100%); opacity: 0.5">
+              Verified Graduate
+            </p>
           </div>
         </div>
         <!-- testimonial title -->
-        <h3>
+        <h3 class="relative z-20 text-xl font-bold my-3 leading-snug">
           I received a job offer mid-course, and the subjects I learned were
           current, if not more so, in the company I joined. I honestly feel I
           got every penny’s worth.
         </h3>
         <!-- quote -->
-        <blockquote>
+        <blockquote
+          class="relative z-20"
+          style="color: hsl(0, 0%, 100%); opacity: 0.7"
+        >
           “ I was an EMT for many years before I joined the bootcamp. I’ve been
           looking to make a transition and have heard some people who had an
           amazing experience here. I signed up for the free intro course and
@@ -63,60 +83,89 @@
         </blockquote>
       </div>
       <!-- Jonathan Walters -->
-      <div>
+      <div
+        class="w-full rounded-md p-8 shadow-lg mb-6 text-white"
+        style="background-color: hsl(217, 19%, 35%)"
+      >
         <!-- header -->
-        <div>
-          <img src="./images/image-jonathan.jpg" alt="Jonathan Walters" />
+        <div class="flex items-center">
+          <img
+            src="./images/image-jonathan.jpg"
+            alt="Jonathan Walters"
+            class="w-10 h-10 rounded-full border-2 mr-5"
+          />
           <div>
-            <h2>Jonathan Walters</h2>
-            <p>Verified Graduate</p>
+            <h2 class="text-base font-semibold">Jonathan Walters</h2>
+            <p class="text-sm" style="color: hsl(0, 0%, 100%); opacity: 0.5">
+              Verified Graduate
+            </p>
           </div>
         </div>
         <!-- testimonial title -->
-        <h3>The team was very supportive and kept me motivated</h3>
+        <h3 class="text-xl font-bold my-3 leading-snug">
+          The team was very supportive and kept me motivated
+        </h3>
         <!-- quote -->
-        <blockquote>
+        <blockquote style="color: hsl(0, 0%, 100%); opacity: 0.7">
           “ I started as a total newbie with virtually no coding skills. I now
           work as a mobile engineer for a big company. This was one of the best
           investments I’ve made in myself. ”
         </blockquote>
       </div>
       <!-- Jeanette Harmon -->
-      <div>
+      <div class="w-full rounded-md p-8 shadow-lg mb-6 bg-white">
         <!-- header -->
-        <div>
-          <img src="./images/image-jeanette.jpg" alt="Jeanette Harmon" />
+        <div class="flex items-center">
+          <img
+            src="./images/image-jeanette.jpg"
+            alt="Jeanette Harmon"
+            class="w-10 h-10 rounded-full border-2 mr-5"
+          />
           <div>
-            <h2>Jeanette Harmon</h2>
-            <p>Verified Graduate</p>
+            <h2 class="text-base font-semibold" style="opacity: 0.7">
+              Jeanette Harmon
+            </h2>
+            <p class="text-sm" style="opacity: 0.5">Verified Graduate</p>
           </div>
         </div>
         <!-- testimonial title -->
-        <h3>An overall wonderful and rewarding experience</h3>
+        <h3 class="text-xl font-bold my-3 leading-snug" style="opacity: 0.7">
+          An overall wonderful and rewarding experience
+        </h3>
         <!-- quote -->
-        <blockquote>
+        <blockquote style="opacity: 0.5">
           “ Thank you for the wonderful experience! I now have a job I really
           enjoy, and make a good living while doing something I love. ”
         </blockquote>
       </div>
       <!-- Patrick Abrams -->
-      <div>
+      <div
+        class="w-full rounded-md p-8 shadow-lg mb-6 text-white"
+        style="background-color: hsl(219, 29%, 14%)"
+      >
         <!-- header -->
-        <div>
-          <img src="./images/image-patrick.jpg" alt="Patrick Abrams" />
+        <div class="flex items-center">
+          <img
+            src="./images/image-patrick.jpg"
+            alt="Patrick Abrams"
+            class="w-10 h-10 rounded-full border-2 mr-5"
+            style="border-color: hsl(263, 55%, 52%)"
+          />
           <div>
-            <h2>Patrick Abrams</h2>
-            <p>Verified Graduate</p>
+            <h2 class="text-base font-semibold">Patrick Abrams</h2>
+            <p class="text-sm" style="color: hsl(0, 0%, 100%); opacity: 0.5">
+              Verified Graduate
+            </p>
           </div>
         </div>
         <!-- testimonial title -->
-        <h3>
+        <h3 class="text-xl font-bold my-3 leading-snug">
           Awesome teaching support from TAs who did the bootcamp themselves.
           Getting guidance from them and learning from their experiences was
           easy.
         </h3>
         <!-- quote -->
-        <blockquote>
+        <blockquote style="color: hsl(0, 0%, 100%); opacity: 0.7">
           “ The staff seem genuinely concerned about my progress which I find
           really refreshing. The program gave me the confidence necessary to be
           able to go out in the world and present myself as a capable junior
@@ -126,19 +175,27 @@
         </blockquote>
       </div>
       <!-- Kira Whittle -->
-      <div>
+      <div class="w-full rounded-md p-8 shadow-lg bg-white">
         <!-- header -->
-        <div>
-          <img src="./images/image-kira.jpg" alt="Kira Whittle" />
+        <div class="flex items-center">
+          <img
+            src="./images/image-kira.jpg"
+            alt="Kira Whittle"
+            class="w-10 h-10 rounded-full border-2 mr-5"
+          />
           <div>
-            <h2>Kira Whittle</h2>
-            <p>Verified Graduate</p>
+            <h2 class="text-base font-semibold" style="opacity: 0.7">
+              Kira Whittle
+            </h2>
+            <p class="text-sm" style="opacity: 0.5">Verified Graduate</p>
           </div>
         </div>
         <!-- testimonial title -->
-        <h3>Such a life-changing experience. Highly recommended!</h3>
+        <h3 class="text-xl font-bold my-3 leading-snug" style="opacity: 0.7">
+          Such a life-changing experience. Highly recommended!
+        </h3>
         <!-- quote -->
-        <blockquote>
+        <blockquote style="opacity: 0.5">
           “ Before joining the bootcamp, I’ve never written a line of code. I
           needed some structure from professionals who can help me learn
           programming step by step. I was encouraged to enroll by a former
@@ -153,9 +210,12 @@
         </blockquote>
       </div>
     </main>
-    <footer>
+    <footer class="w-full text-center text-xs my-2 mt-4">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="underline"
         >Frontend Mentor</a
       >. Coded by Skye Brown.
     </footer>
