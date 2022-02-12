@@ -110,3 +110,54 @@ blockquote {
 .card blockquote {
     opacity: 70%;
 }
+
+/* media queries */
+@media (min-width: 500px) {
+    main {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 950px;
+        display: grid;
+        grid:
+            "one one two five" 1fr
+            "three four four five" 1fr
+            / 1fr 1fr 1fr 1fr;
+        gap: 1.2rem 1.2rem;
+    }
+
+    .card {
+        margin-bottom: 0;
+    }
+
+    .card-violet {
+        grid-area: one;
+    }
+
+    .card-gray {
+        grid-area: two;
+    }
+
+    .card-white {
+        grid-area: three;
+    }
+
+    .card-dark {
+        grid-area: four;
+    }
+
+    /* select all but the first child with class "card-white" */
+    main > .card-white ~ .card-white {
+        grid-area: five;
+    }
+}
+
+@media (min-width: 1440px) {
+    main {
+        max-width: 1100px;
+    }
+}
